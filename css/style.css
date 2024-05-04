@@ -30,6 +30,9 @@ body {
   font-weight: bold;
 }
 
+.container {
+  @apply w-full lg:max-w-[1280px] mx-auto;
+}
 .feature-item {
   @apply col-span-4 md:col-span-3 lg:col-span-4 flex flex-col items-center gap-y-2;
 }
